@@ -1,0 +1,47 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables (contains API keys!)
+.env
+
+# Data directory (user data - don't commit)
+data/
+data copy/
+
+# User uploads
+static/profile/uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# PM2
+.pm2/
+
+# Debug/test scripts
+DEBUG_*.py
+check_*.py
+test_*.py
+set_password_for_user.py
+CHANGE_ROLE_ROUTE.py
